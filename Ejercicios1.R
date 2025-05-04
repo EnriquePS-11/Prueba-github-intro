@@ -1,7 +1,7 @@
 #Ejercicio1
 ejercicio1 <- function(variables) {
  n<-readline(prompt = "Insertar nota:")
- if(n>=5){
+ if(n>=3){
    print("Aprobado")
  }else{
    print("suspenso")
@@ -28,7 +28,7 @@ ejercicio2()
 
 #Ejercicio3
 ejercicio3 <- function() {
-  max<-readline(prompt = "¿Cuántas notas va a introducir?")
+  max<-readline(prompt = "?Cu?ntas notas va a introducir?")
   y<-scan(,,max)
   for (i in 1:length(y)) {
     if(y[i]>=0 & y[i]<5){
@@ -39,9 +39,9 @@ ejercicio3 <- function() {
   }
 }
 ejercicio3()
-#otra opción
+#otra opci?n
 notas <- function() {
-  max<-readline(prompt = "¿Cuántas notas va a introducir?")
+  max<-readline(prompt = "?Cu?ntas notas va a introducir?")
   print("Introduce las notas:")
   i<-1
   while (i<=max) {
@@ -106,7 +106,7 @@ ejercicio5 <- function(variables) {
   print(paste("Aprobados:", Aprob,", Suspensos:",Susp, ", Erasmus:", Erasmus, ", E.suspensos:", Suspensos_E, ", E.aprobados:", Aprobados_E))
 }
 ejercicio5()
-#otra opción del 5#
+#otra opci?n del 5#
 
 ejercicio5bis <- function(variables) {
  erasmus<-c()
